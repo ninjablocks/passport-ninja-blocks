@@ -23,7 +23,7 @@ passport.use(new GitHubStrategy({
         });
     }
 ));
-
+```
 
 ## License
 
