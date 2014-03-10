@@ -1,0 +1,38 @@
+{
+  "name": "passport-ninja-blocks",
+  "version": "0.0.0",
+  "description": "Ninja Blocks authentication strategy for Passport.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wolfeidau/passport-ninja-blocks.git"
+  },
+  "keywords": [
+    "passport",
+    "ninjablocks",
+    "auth",
+    "authentication",
+    "identity"
+  ],
+  "author": "Mark Wolfe <mark@wolfe.id.au>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wolfeidau/passport-ninja-blocks/issues"
+  },
+  "homepage": "https://github.com/wolfeidau/passport-ninja-blocks",
+  "devDependencies": {
+    "chai": "~1.9.0",
+    "mocha": "~1.17.1"
+  },
+  "dependencies": {
+    "passport-oauth2": "~1.1.1",
+    "pkginfo": "~0.3.0"
+  }
+}
