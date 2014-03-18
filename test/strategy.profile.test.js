@@ -16,7 +16,7 @@ describe('Strategy#userProfile', function () {
 
   // mock
   strategy._oauth2.get = function (url, accessToken, callback) {
-    if (url != 'https://id.ninja.is/api/userinfo') {
+    if (url != 'https://id.ninja.is/api/v1/userinfo') {
       callback(new Error('wrong url argument'));
       return;
     }

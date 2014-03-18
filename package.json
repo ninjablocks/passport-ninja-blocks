@@ -2,7 +2,7 @@
   "name": "passport-ninja-blocks",
   "version": "0.0.0",
   "description": "Ninja Blocks authentication strategy for Passport.",
-  "main": "index.js",
+  "main": "lib",
   "directories": {
     "example": "examples",
     "test": "test"
